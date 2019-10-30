@@ -1,5 +1,10 @@
 
-
+body{
+   /*  background-color: #000 */
+  /*  background-image: url('../images/01.jpg');
+   background-repeat:no-repeat;
+   border-left-color: #d8505c */
+}
 
 
 *,::before,::after{
@@ -28,6 +33,14 @@ a:hover{
     /* text-decoration: none; */
     color: blue;
 }
+
+.abc{
+    width: 0%;
+    /* background-color: blue;  */
+    position: absolute;
+    top: 0px;
+    left: 0%;
+}
 .hm_header{
     position: fixed;
     left: 0;
@@ -39,8 +52,8 @@ a:hover{
 }
 .hm_header_box{
     width: 100%;
-    max-width: 640px;
-    min-width: 300px;
+    max-width: 450px;
+    min-width: 450px;
     margin: 0 auto;
     /* 设置透明度 */
     background: rgba(201, 21, 35, 0);
@@ -49,12 +62,12 @@ a:hover{
 }
 /* .hm_header_box> */
 .icon_logo{
-    width: 60px;
+    width: 40px;
     height: 36px;
     position: absolute ;
     background-position: 0 -103px;
-    top:4px;
-    left: 10px;
+    top:1px;
+    left: -50px;
     /* background:url(images/logo.png) 0 0 no-repeat; */
 }
 .icon_logo img{
@@ -62,15 +75,23 @@ a:hover{
     height: 100%;
 }
 .login{
-    width: 50px;
+    width: 150px;
     height: 40px;
     line-height: 40px;
     text-align: center;
-    /* color: blue; */
+     color: black; 
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 15px;
+    font-size: 17px;
+}
+.hm_leader{
+    
+    width: 59%;
+    /* background-color: blue; */
+    position: absolute;
+    top: 0px;
+    left: -35%;
 }
 .hm_header_box form{
     width: 100%;
@@ -80,7 +101,7 @@ a:hover{
     position: relative;
 }
 .hm_header_box form input{
-    width: 100%;
+    width: 70%;
     height: 30px;
     border-radius: 15px;
     margin-top: 5px;
@@ -100,7 +121,9 @@ a:hover{
 }
 /* 3. */
 .hm_nav{
-    width: 100%;
+    
+    left: 10%;
+    width: 30%;
     background: #fff;
     /* border-bottom: 1px solid #e0e0e0; */
     position: relative;
@@ -108,7 +131,7 @@ a:hover{
 
 }
 .hm_nav ul{
-    width: 100%;
+    width: 80%;
     padding: 10px 0;
 }
 .hm_nav ul li{
@@ -166,11 +189,12 @@ a:hover{
 .slider{
      /* width: 640px;
     height: 170px;  */
-    width: 100%;
+    width: 35%;
     height: 170PX;  
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    left: 89%;
 }
 .btn{
     position: absolute;
@@ -234,9 +258,11 @@ a:hover{
 
 /* 导航栏模块 */
 .hm_nav{
-    width: 100%;
+    width: 50%;
     background: #fff;
-    border-bottom: 1px solid #ee00ee;
+    padding: 11px;
+    left: 114%;
+    /* border-bottom: 1px solid #ee00ee; */
 }
 .hm_nav>ul{
     width: 100%;
@@ -299,10 +325,11 @@ a:hover{
 }
 /* 商品盒子 */
 .hm_product{
-    width: 100%;
+    width: 50%;
    /* background-color: blue;  */
    position: absolute;
-   top: 342px;
+   top: 350px;
+   left: 35%;
 }
 .hm_product_box{
     width: 100%; 
@@ -319,9 +346,7 @@ a:hover{
     top: 10px;
 }
 /* 掌上秒杀 */
-.hm_sk{
-    
-}
+
 .hm_sk .sk_icon{
     background: url("../images/精品推荐2.png") no-repeat;
     background-size: 21px 22px;
@@ -355,9 +380,10 @@ a:hover{
     width: 5px;
 }
 .hm_sk .product_box_con>ul{
-    width: 100%;
+    width: 50%;
     font-size: 12px;
     padding: 10px 0;
+    
 }
 .hm_sk .product_box_con>ul>li{
     width: 33.333%;
@@ -400,11 +426,11 @@ a:hover{
 /* 组合样式 */
 .to{
     float: left;
-    width: 98%;
+    width: 86%;
     margin: 2px 2px;
-    border-style:solid;
+    /* border-style:solid;
     border-width:1px;
-    border-color: rgb(160, 165, 165);
+    border-color: rgb(160, 165, 165); */
 
 }
 
@@ -432,7 +458,7 @@ a:hover{
 }
 .to>.to_i{
     margin: 6px;
-    width: 95%;
+    width: 50%;
 }
 .to>.to_i>.to_1{
     float:right;
@@ -468,7 +494,7 @@ height: 45%;
 
 }
 .to>.to_i>.to_3 img {
-    padding: 3px;
+padding: 3px;
 width: 50%;
 height: 45%;
 
@@ -487,71 +513,46 @@ height: 45%;
     height: 55%;
 }
 
+.Imp{
+    width: 100%;
+    height: 170PX;  
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
 
+.Imp>.tn>{
+    width: 96%;
+    height: 22px;
+    margin: 0 2px;
+}
+.Imp>.tn>.tn_n>{
+    width: 70%;
+    height: 100px;
+}
 
-.tn>.tn_n >.button1{
-    background-color: #e7e7e7;; /* Green */
+.Imp>.tn>.tn_n>.tn_n1>{
+    width: 70%;
+    height: 100px;
+}
+.Imp>.tn>.tn_n>.tn_n1>.button{
+    margin: 8px;
+    background-color: beige;
     border: none;
     color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
-    margin: 85% 7px;
+    font-size: 16px;
     cursor: pointer;
+    float: left;
+    border-radius: 50%;
+}
+.Imp>.tn>.tn_n>.tn_n1>.button:hover {
+    background-color: yellow;
 }
 
-.tn>.tn_n>.button2{
-    background-color: #e7e7e7; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 85% -22px;
-    cursor: pointer;
-}
 
-.tn>.tn_n>.button3{
-    background-color:#e7e7e7; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 85% -2px;
-    cursor: pointer;
-}
-.tn>.tn_n>.button5{
-    background-color: #e7e7e7; /* Green */
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 85% -4px;
-    cursor: pointer;
-}
-.tn>.tn_n>.button6{
-    background-color: #e7e7e7; /* Green */
-    border: none;
-    color:black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 85% -17px;
-    cursor: pointer;
-}
-.button2 {background-color: #008CBA;} /* Blue */
-.button3 {background-color: #f44336;} /* Red */ 
-.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
-.button5 {background-color: #555555;} /* Black *
+
+

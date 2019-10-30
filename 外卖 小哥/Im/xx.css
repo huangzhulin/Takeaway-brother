@@ -1,0 +1,164 @@
+body{
+    background-color: antiquewhite;
+    
+}
+a:link{text-decoration: none;}
+
+.th{
+    width: 0%;
+    /* background-color: blue;  */
+    position: absolute;
+    top: 0px;
+    left: 0%;
+}
+.th_header{
+    position: fixed;
+    left: 0;
+    top: 2;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+    /* background: blueviolet; */
+}
+.th_header_box{
+    width: 100%;
+    max-width: 450px;
+    min-width: 450px;
+    margin: 0 auto;
+    /* 设置透明度 */
+    background: rgba(201, 21, 35, 0);
+    height: 40px;
+    position: relative;
+}
+/* .hm_header_box> */
+.icon_logo{
+    width: 40px;
+    height: 36px;
+    position: absolute ;
+    background-position: 0 -103px;
+    top:1px;
+    left: -50px;
+    /* background:url(images/logo.png) 0 0 no-repeat; */
+}
+.icon_logo img{
+    width: 150%;
+    height: 160%;
+}
+.login{
+    width: 170%;
+    height: 40px;
+    line-height: 90px;
+    text-align: center;
+     color: black; 
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 17px;
+}
+.th_nae{
+    margin:10px auto;
+}
+.th_nav{
+    width: 30%;
+    background: #fff;
+    border-bottom: 1px solid black;
+    margin:65px auto;
+    
+}
+
+.th_nae>.tt1
+{
+
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:300px;
+    border-radius:25px;
+    margin:-50px 35%;
+}
+.th_nae>.tt2
+{
+    
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:300px;
+    border-radius:25px;
+    margin:50px 35%;
+}
+.th_nae>.tt3
+{
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:300px;
+    border-radius:25px;
+    margin:-50px 35%;
+}
+.th_nae>.tt4
+{
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:300px;
+    border-radius:25px;
+    margin:50px 35%;
+}
+.th_nae>.tt5
+{
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:300px;
+    border-radius:25px;
+    margin:-50px 35%;
+}
+.th_nae>.tt6
+{
+	border:2px solid #a1a1a1;
+	padding:10px 40px; 
+	background:#dddddd;
+	width:300px;
+    border-radius:25px;
+    margin:50px 35%;
+}
+
+.Imp{
+    width: 34%;
+    height: 170PX;  
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.Imp>.tn>{
+    width: 96%;
+    height: 22px;
+    margin: 0 2px;
+}
+.Imp>.tn>.tn_n>{
+    width: 70%;
+    height: 100px;
+}
+
+.Imp>.tn>.tn_n>.tn_n1>{
+    width: 70%;
+    height: 100px;
+}
+.Imp>.tn>.tn_n>.tn_n1>.button{
+    margin: 8px;
+    background-color: beige;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 50%;
+}
+.Imp>.tn>.tn_n>.tn_n1>.button:hover {
+    background-color: yellow;
+}
