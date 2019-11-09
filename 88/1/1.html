@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>外卖小哥</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../1/1.css">
+</head>
+<body>
+
+
+   
+<div class="container">
+  <div class="jumbotron">
+    <h1>外卖小哥，给你最好的服务！</h1>
+    <p>欢迎各位帅哥美女的加入</p> 
+  </div>
+  <div class="container">          
+      
+     <a href="../2/2.html"><button type="button" class="btn btn-info btn-lg">点外卖
+        <p>让你足不出户就能享受世间美食！</p>
+        <p>在一个休闲的时光点一份美味的外卖。</p>
+      </button> </a> 
+      
+      <a href="../3/3.html"><button type="button" class="btn btn-info btn-lg">骑手注册
+          <p>我们欢迎每一个人加入我们</p>
+          <p>再牛逼的梦想也抵不住你傻逼似的坚持！</p>
+        </button> </a>
+
+        <a href="../4/4.html"><button type="button" class="btn btn-info btn-lg">商家入驻
+            <p>欢迎个大商家加入我们。</p>
+            <p>让我们一起努力，给顾客最好的服务</p>
+          </button> </a>
+    </div>
+</div>
+<!-- 背景div -->
+<div id="mydiv" style="height:500px;"></div>
+<script type="text/javascript">
+  window.onload = function() {
+      //配置
+      var config = {
+          vx: 4,	//小球x轴速度,正为右，负为左
+          vy: 4,	//小球y轴速度
+          height: 2,	//小球高宽，其实为正方形，所以不宜太大
+          width: 2,
+          count: 200,		//点个数
+          color: "121, 162, 185", 	//点颜色
+          stroke: "130,255,255", 		//线条颜色
+          dist: 6000, 	//点吸附距离
+          e_dist: 20000, 	//鼠标吸附加速距离
+          max_conn: 10 	//点到点最大连接数
+      }
+
+      //调用
+      CanvasParticle(config);
+  }
+</script>
+<script type="text/javascript" src="canvas-particle.js"></script>
+</main>
+</body>
+</html>
