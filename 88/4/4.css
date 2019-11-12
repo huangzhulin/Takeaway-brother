@@ -1,0 +1,203 @@
+li{
+    list-style: none;
+}
+
+a:link {text-decoration:none;}
+
+a{
+    color: black;
+}
+.csr-header{
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .06);
+    background-color: #fff;
+    opacity: 1;
+    top: 0;
+}
+
+.header-content{
+    height: 100%;
+    width: 990px;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.csr-header #left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../4/img/外卖小哥.png')no-repeat;
+    background-size: 92%;
+    width: 163px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.header-content #right{
+    margin-left: 220px;
+}
+
+.header-content #right ul{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: PingFangSC-Regular,Microsoft Yahei,Arial,Helvetica,sans-serif;
+    line-height: 16px;
+}
+
+.header-content #right ul li{
+    height: 67px;
+    margin-left: 40px;
+    box-sizing: content-box;
+    top: 0;
+    cursor: pointer;
+}
+
+.header-content #right ul li a{
+    box-sizing: content-box;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #333;
+}
+
+.active{
+    font-weight: 700;
+    border-bottom: 3px solid #ffbd27;
+}
+
+.csr-component{
+    padding-top: 70px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+.top{
+    width: 100%;
+    height: 320px;
+    background: url('../4/img/背景.png')no-repeat;
+    background-size: 100%;
+    margin-bottom: 60px;
+    position: relative;
+}
+.bottom{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 1520px;
+    display: flex;
+}
+.top-left{
+    width: 490px;
+    height: 480px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    position: absolute;
+}
+.top-left:hover{
+    background-color: yellow;
+}
+.top-left-image{
+    width: 100%;
+    height: 320px;
+    background: url('../4/img/商家加盟.jpg')no-repeat;
+    background-size: 100%;
+}
+.content{
+    margin-top: 44px;
+
+}
+.itile{
+    font-size: 36px;
+    color: #000;
+    font-family: PingFangSC-Semibold,Microsoft Yahei,Arial,Helvetica,sans-serif;
+    line-height: 36px;
+    text-align: center;
+}
+.intro{
+    font-size: 18px;
+    color: #888;
+    font-family: PingFangSC-Light,Microsoft Yahei,Arial,Helvetica,sans-serif;
+    line-height: 60px;
+    text-align: center;
+}
+
+.top-right{
+    width: 490px;
+    height: 480px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    position: absolute;
+    left: 510px;
+}
+.top-right:hover{
+    background-color: yellow;
+}
+.top-right-image{
+    width: 100%;
+    height: 320px;
+    background: url('../4/img/零售商入驻.jpg')no-repeat;
+    background-size: 100%;
+}
+.middle-left{
+    width: 490px;
+    height: 480px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    position: absolute;
+    top: 520px;
+}
+.middle-left:hover{
+    background-color: yellow;
+}
+.middle-left-image{
+    width: 100%;
+    height: 320px;
+    background: url('../4/img/送外卖.jpg')no-repeat;
+    background-size: 100%;
+}
+.middle-right{
+    width: 490px;
+    height: 480px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    position: absolute;
+    left: 510px;
+    top: 520px;
+}
+.middle-right:hover{
+    background-color: yellow;
+}
+.middle-right-image{
+    width: 100%;
+    height: 320px;
+    background: url('../4/img/城市代理.jpg')no-repeat;
+    background-size: 114%;
+}
+.bottom-servic{
+    width: 100%;
+    height: 480px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .08);
+    background-color: #fff;
+    position: absolute;
+    top: 1040px;
+}
+
+.bottom-servic:hover{
+    background-color: yellow;
+}
+.bottom-image{
+    width: 100%;
+    height: 320px;
+    background: url('../4/img/服务市场.png')no-repeat;
+    background-size: 100%;
+}
