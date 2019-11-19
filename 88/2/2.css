@@ -9,6 +9,10 @@ a:link {text-decoration:none;}
     background-color: yellow;
 }
 
+.user-entry a:hover{
+    color: orange;
+}
+
 .com-header{
     background: #fff;
     box-shadow: 0 2px 27px 0 rgba(0, 0, 0,0.10);
