@@ -1,12 +1,3 @@
-
-body{
-   /*  background-color: #000 */
-  /*  background-image: url('../images/01.jpg');
-   background-repeat:no-repeat;
-   border-left-color: #d8505c */
-}
-
-
 *,::before,::after{
     /* 选择所有的标签 */
     margin: 0;
@@ -33,14 +24,6 @@ a:hover{
     /* text-decoration: none; */
     color: blue;
 }
-
-.abc{
-    width: 0%;
-    /* background-color: blue;  */
-    position: absolute;
-    top: 0px;
-    left: 0%;
-}
 .hm_header{
     position: fixed;
     left: 0;
@@ -52,8 +35,8 @@ a:hover{
 }
 .hm_header_box{
     width: 100%;
-    max-width: 450px;
-    min-width: 450px;
+    max-width: 640px;
+    min-width: 300px;
     margin: 0 auto;
     /* 设置透明度 */
     background: rgba(201, 21, 35, 0);
@@ -62,12 +45,12 @@ a:hover{
 }
 /* .hm_header_box> */
 .icon_logo{
-    width: 40px;
+    width: 60px;
     height: 36px;
     position: absolute ;
     background-position: 0 -103px;
-    top:1px;
-    left: -50px;
+    top:4px;
+    left: 10px;
     /* background:url(images/logo.png) 0 0 no-repeat; */
 }
 .icon_logo img{
@@ -75,23 +58,15 @@ a:hover{
     height: 100%;
 }
 .login{
-    width: 150px;
+    width: 50px;
     height: 40px;
     line-height: 40px;
     text-align: center;
-     color: black; 
+    /* color: blue; */
     position: absolute;
     right: 0;
     top: 0;
-    font-size: 17px;
-}
-.hm_leader{
-    
-    width: 59%;
-    /* background-color: blue; */
-    position: absolute;
-    top: 0px;
-    left: -35%;
+    font-size: 15px;
 }
 .hm_header_box form{
     width: 100%;
@@ -101,7 +76,7 @@ a:hover{
     position: relative;
 }
 .hm_header_box form input{
-    width: 70%;
+    width: 100%;
     height: 30px;
     border-radius: 15px;
     margin-top: 5px;
@@ -121,9 +96,7 @@ a:hover{
 }
 /* 3. */
 .hm_nav{
-    
-    left: 10%;
-    width: 30%;
+    width: 100%;
     background: #fff;
     /* border-bottom: 1px solid #e0e0e0; */
     position: relative;
@@ -131,7 +104,7 @@ a:hover{
 
 }
 .hm_nav ul{
-    width: 80%;
+    width: 100%;
     padding: 10px 0;
 }
 .hm_nav ul li{
@@ -189,12 +162,11 @@ a:hover{
 .slider{
      /* width: 640px;
     height: 170px;  */
-    width: 35%;
-    height: 170PX;  
+    width: 87%;
+    height: 166PX;  
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    left: 89%;
 }
 .btn{
     position: absolute;
@@ -258,15 +230,13 @@ a:hover{
 
 /* 导航栏模块 */
 .hm_nav{
-    width: 50%;
+    width: 100%;
     background: #fff;
-    padding: 11px;
-    left: 114%;
-    /* border-bottom: 1px solid #ee00ee; */
+    
 }
 .hm_nav>ul{
     width: 100%;
-    padding: 10px 0;
+    padding: 24px 0;
     /* 包起盒子 */
     display: flex;
     flex-wrap:wrap;
@@ -301,7 +271,7 @@ a:hover{
 }
 .hm_product>.product_box>.product_box_tit{
     /* height: 32px; */
-    line-height: 32px;
+    line-height: 55px;
     border-bottom: 1px solid #e0e0e0;
 }
 .hm_product>.product_box>.product_box_tit.no_border{
@@ -325,11 +295,10 @@ a:hover{
 }
 /* 商品盒子 */
 .hm_product{
-    width: 50%;
+    width: 100%;
    /* background-color: blue;  */
    position: absolute;
-   top: 350px;
-   left: 35%;
+   top: 342px;
 }
 .hm_product_box{
     width: 100%; 
@@ -346,18 +315,20 @@ a:hover{
     top: 10px;
 }
 /* 掌上秒杀 */
-
+.hm_sk{
+    
+}
 .hm_sk .sk_icon{
-    background: url("../images/精品推荐2.png") no-repeat;
-    background-size: 21px 22px;
-    width: 23px;
-    height: 23px;
+    background: url("../images/seckill-icon.png") no-repeat;
+    background-size: 16px 20px;
+    width: 16px;
+    height: 20px;
     float: left;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 .hm_sk .sk_name{
     color: #d8505c;
-    font-size: 25px;
+    font-size: 15px;
     float: left;
 }
 .hm_sk .sk_time{
@@ -380,10 +351,9 @@ a:hover{
     width: 5px;
 }
 .hm_sk .product_box_con>ul{
-    width: 50%;
+    width: 100%;
     font-size: 12px;
     padding: 10px 0;
-    
 }
 .hm_sk .product_box_con>ul>li{
     width: 33.333%;
@@ -426,11 +396,11 @@ a:hover{
 /* 组合样式 */
 .to{
     float: left;
-    width: 86%;
+    width: 98%;
     margin: 2px 2px;
-    /* border-style:solid;
+    border-style:solid;
     border-width:1px;
-    border-color: rgb(160, 165, 165); */
+    border-color: rgb(160, 165, 165);
 
 }
 
@@ -439,26 +409,13 @@ a:hover{
     height: 22px;
     margin: 0 2px;
 }
-
-.to>.to_o> .sk_icon{
-    background: url("../images/商家.png") no-repeat;
-    background-size: 26px 21px;
-    width: 27px;
-    height: 23px;
-    float: left;
-    margin-top: 4px;
-}
-
 .to>.to_o > h3{
-    /* margin: 1px 1px 0 10px;  */
-    color: hotpink;
-    font-size: 19px;
-    float: left;
+    margin: 1px 1px 0 10px; 
 
 }
 .to>.to_i{
     margin: 6px;
-    width: 50%;
+    width: 95%;
 }
 .to>.to_i>.to_1{
     float:right;
@@ -494,65 +451,8 @@ height: 45%;
 
 }
 .to>.to_i>.to_3 img {
-padding: 3px;
+    padding: 3px;
 width: 50%;
 height: 45%;
 
 }
-
-.to>.to_i>.to_4{
-    border-left: 1px solid #e0e0e0;
-    border-top: 1px solid #e0e0e0;
-    float: left;
-    width: 50%;
-    height: 55%;
-}
-.to>.to_i>.to_4 img{
-    padding: 3px;
-    width: 50%;
-    height: 55%;
-}
-
-.Imp{
-    width: 100%;
-    height: 170PX;  
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-}
-
-.Imp>.tn>{
-    width: 96%;
-    height: 22px;
-    margin: 0 2px;
-}
-.Imp>.tn>.tn_n>{
-    width: 70%;
-    height: 100px;
-}
-
-.Imp>.tn>.tn_n>.tn_n1>{
-    width: 70%;
-    height: 100px;
-}
-.Imp>.tn>.tn_n>.tn_n1>.button{
-    margin: 8px;
-    background-color: beige;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    float: left;
-    border-radius: 50%;
-}
-.Imp>.tn>.tn_n>.tn_n1>.button:hover {
-    background-color: yellow;
-}
-
-
-
-
